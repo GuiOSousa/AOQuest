@@ -1,0 +1,121 @@
+[
+	{
+		"code": "teste",
+		"content": [
+			{
+				"text": "Está será a descrição de um componente",
+			},
+			{
+				"text": "Testando",
+			}
+		]
+	},
+	{
+		"code": "CPU",
+		"content": [
+			{
+				"text": "Parte responsável por executar as instruções de um programa, o que inclui operações
+aritméticas, lógicas e de controle",
+			},
+			{
+				"text": "Testando",
+			}
+		]
+	},
+	{
+		"code": "Inputs",
+		"content": [
+			{
+				"text": "São as entradas para os dispositivos que fornecem informação para as operações em um programa, também chamados de unidades ou periféricos de entrada.",
+			}
+		]
+	},
+	{
+		"code": "ForcaDaCPU",
+		"content": [
+			{
+				"text": "Responsável por fornecer energia exclusivamente ao processador",
+			}
+		]
+	},
+	{
+		"code": "ControladorEntradaESaida",
+		"content": [
+			{
+				"text": "Responsável por controlar a entrada e a saída de dados.",
+			}
+		]
+	},
+	{
+		"code": "EntradaDeForca",
+		"content": [
+			{
+				"text": "Área na qual é fornecida a energia aos componentes da placa.",
+			}
+		]
+	},
+	{
+		"code": "CPUFan",
+		"content": [
+			{
+				"text": "Responsável por resfriar o processador durante seu uso.",
+			}
+		]
+	},
+	{
+		"code": "EntradaPlacaDeVideo",
+		"content": [
+			{
+				"text": "É um tipo de slot de expansão usado principalmente em placas-mãe de computadores para conectar dispositivos periféricos de alta velocidade.",
+			}
+		]
+	},
+	{
+		"code": "ChipSet",
+		"content": [
+			{
+				"text": "Conjunto de circuitos integrados, que fazem o fluxo de dados entre os componentes do dispositivo. Normalmente ele faz parte da placa-mãe, ligando o processador e as memórias ao resto dos elementos do seu eletrônico.",
+			}
+		]
+	},
+	{
+		"code": "Bateria",
+		"content": [
+			{
+				"text": "É um dispositivo que armazena energia elétrica por meio de reações químicas, auxilia na inicialização da placa mãe.",
+			}
+		]
+	},
+	{
+		"code": "EntradaSATA",
+		"content": [
+			{
+				"text": "O Serial de acessórios tecnologicamente avançado é uma interface que permite aos dispositivos de armazenamento fazer a conexão com os sistemas host.",
+			}
+		]
+	},
+	{
+		"code": "M2M",
+		"content": [
+			{
+				"text": "É um componente usado por placas de expansão e conectores que são montados internamente no computador.",
+			}
+		]
+	},
+	{
+		"code": "RAM",
+		"content": [
+			{
+				"text": "Onde o computador armazena temporariamente as informações dos processos que estão ocorrendo no computador no momento do uso, permitindo acesso rápido a esses dados",
+			}
+		]
+	},
+	{
+		"code": "SysFan",
+		"content": [
+			{
+				"text": "Se refere a um conector de ventilador (fan) de sistema encontrado em placas-mãe de computador e são projetados para conectar os ventiladores que resfriam o sistema.",
+			}
+		]
+	}
+]

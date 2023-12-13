@@ -1,0 +1,31 @@
+[gd_scene load_steps=4 format=3 uid="uid://duvqwf2ut56u4"]
+
+[ext_resource type="Script" path="res://Code/InterfaceScenes/transition.gd" id="1_otxrh"]
+[ext_resource type="Texture2D" uid="uid://gr44bixjirxd" path="res://Images/character-face.png" id="2_5ahib"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_d61hj"]
+
+[node name="Transition" type="CharacterBody2D"]
+script = ExtResource("1_otxrh")
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(0, 0, -192, 720, 422.529, 720, 1080, 720, 1280, 0)
+
+[node name="Timer" type="Timer" parent="."]
+one_shot = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_d61hj")
+
+[node name="Timer2" type="Timer" parent="."]
+one_shot = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(528, 352)
+scale = Vector2(7, 7)
+texture = ExtResource("2_5ahib")
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="timeout" from="Timer2" to="." method="_on_timer_2_timeout"]

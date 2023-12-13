@@ -1,0 +1,158 @@
+[
+	{
+		"code": "intro",
+		"content": [
+			{
+				"text": "Aqui temos uma representação de uma [color=#f0ff00]CPU[/color].",
+				"frame": 0
+			},
+			{
+				"text": "Para terminar de consertar nosso computador, precisamos associar cada parte dela a sua descrição.",
+				"frame": 0
+			},
+			{
+				"text": "Você consegue me ajudar?",
+				"frame": 2
+			},
+			{
+				"text": "Vamos começar...",
+				"frame": 1
+			}
+		]
+	},
+	{
+		"code": "Processador_done",
+		"content": [
+			{
+				"text": "Bem aí!",
+				"frame": 3
+			},
+			{
+				"text": "A CPU é comumente chamada de processador devido a sua importância no componente.",
+				"frame": 0
+			},
+			{
+				"text": "O próximo é...",
+				"frame": 1
+			}
+		]
+	},
+	{
+		"code": "Entrada_done",
+		"content": [
+			{
+				"text": "Parabéns!",
+				"frame": 3
+			},
+			{
+				"text": "Esses dados serão processados e armazenados no nosso computador.",
+				"frame": 0
+			},
+			{
+				"text": "Vamos seguindo...",
+				"frame": 1
+			}
+		]
+	},
+	{
+		"code": "LogicaCombinacional_done",
+		"content": [
+			{
+				"text": "Muito bem!",
+				"frame": 3
+			},
+			{
+				"text": "Os valores booleanos são representados por [color=#f0ff00]verdadeiros[/color] ou [color=#f0ff00]falsos[/color].",
+				"frame": 0
+			},
+			{
+				"text": "Vamos em frente...",
+				"frame": 1
+			}
+		]
+	},
+	{
+		"code": "MemoriaPrincipal_done",
+		"content": [
+			{
+				"text": "Maravilha!",
+				"frame": 3
+			},
+			{
+				"text": "A CPU utiliza a [color=#f0ff00]RAM[/color] para [color=#f0ff00]armazenar[/color] e [color=#f0ff00]executar[/color] programas vindos do disco.",
+				"frame": 0
+			},
+			{
+				"text": "E o próximo...",
+				"frame": 1
+			}
+		]
+	},
+	{
+		"code": "Registradores_done",
+		"content": [
+			{
+				"text": "Perfeito!",
+				"frame": 3
+			},
+			{
+				"text": "Eles ficam dentro dos processadores, guardam informações e trabalham em paralelo com o restante dos componentes internos da CPU.",
+				"frame": 0
+			},
+			{
+				"text": "Vamos ver...",
+				"frame": 1
+			}
+		]
+	},
+	{
+		"code": "Saida_done",
+		"content": [
+			{
+				"text": "Excelente!",
+				"frame": 3
+			},
+			{
+				"text": "A [color=#f0ff00]saída[/color] é o resultado retornado pelo processo.",
+				"frame": 0
+			},
+			{
+				"text": "Estamos quase acabando...",
+				"frame": 1
+			}
+		]
+	},
+	{
+		"code": "UnidadeDeControle_done",
+		"content": [
+			{
+				"text": "Parabéns!",
+				"frame": 3
+			},
+			{
+				"text": "Este componente funciona como um verdadeiro cérebro, [color=#f0ff00]buscando informações[/color], [color=#f0ff00]entendendo[/color] e [color=#f0ff00]executando[/color].",
+				"frame": 0
+			},
+			{
+				"text": "Este foi o último componente.",
+				"frame": 0
+			},
+			{
+				"text": "[color=#00ce00]Você conseguiu![/color]",
+				"frame": 3
+			},
+			{
+				"text": "Obrigado por me ajudar.",
+				"frame": 0
+			},
+			{
+				"text": "Agora, você tem um amplo conhecimento do funcionamento interno de um computador.",
+				"frame": 0
+			},
+			{
+				"text": "Já sei quem chamar quando precisar de ajuda com minha máquina!",
+				"frame": 3
+			}
+		]
+	}
+]

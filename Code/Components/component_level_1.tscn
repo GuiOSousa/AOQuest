@@ -1,0 +1,77 @@
+[gd_scene load_steps=17 format=3 uid="uid://cy7v05l5wkds"]
+
+[ext_resource type="Texture2D" uid="uid://bgab2g8dfqky5" path="res://Images/Fase1/PlacaMae.png" id="1_4t2vu"]
+[ext_resource type="Script" path="res://Code/Components/component_level_1.gd" id="1_wj6nw"]
+[ext_resource type="Texture2D" uid="uid://div0k2j27i6p1" path="res://Images/Fase1/CPU.png" id="2_lh0hs"]
+[ext_resource type="PackedScene" uid="uid://b6nnn78a4ws4o" path="res://Code/Reusable/component.tscn" id="3_tscls"]
+[ext_resource type="Texture2D" uid="uid://b5rugg567idpo" path="res://Images/Fase1/Inputs.png" id="5_hiwah"]
+[ext_resource type="Texture2D" uid="uid://fva05eshind" path="res://Images/Fase2/ChipSet.png" id="6_pw7vm"]
+[ext_resource type="Texture2D" uid="uid://cn41b04ywk50w" path="res://Images/Fase2/Conector.png" id="7_gscrk"]
+[ext_resource type="Texture2D" uid="uid://b66foo24pm1us" path="res://Images/Fase2/ControladorEntradaESaida.png" id="8_jj8g4"]
+[ext_resource type="Texture2D" uid="uid://c0lxuwcd3u7ii" path="res://Images/Fase2/CPUFan.png" id="9_dp8mt"]
+[ext_resource type="Texture2D" uid="uid://b8cjfbpbxdqhr" path="res://Images/Fase2/EntradaDeForca.png" id="10_bibgm"]
+[ext_resource type="Texture2D" uid="uid://d2o0bjgoo7h84" path="res://Images/Fase2/EntradaPlacaDeVideo.png" id="11_56g5n"]
+[ext_resource type="Texture2D" uid="uid://0af15h3nvlpe" path="res://Images/Fase2/Bateria.png" id="12_x6cxo"]
+[ext_resource type="Texture2D" uid="uid://c8qbvcdv3j4mi" path="res://Images/Fase2/EntradaSATA.png" id="13_gx5q7"]
+[ext_resource type="Texture2D" uid="uid://sky8kc7gk5hn" path="res://Images/Fase2/M2M.png" id="14_3hwiy"]
+[ext_resource type="Texture2D" uid="uid://bdoqa8gl5gscx" path="res://Images/Fase2/RAM.png" id="15_xivqt"]
+[ext_resource type="Texture2D" uid="uid://dgaqwry7x0xon" path="res://Images/Fase2/SysFan.png" id="16_alhem"]
+
+[node name="Component-Level1" type="Node2D"]
+script = ExtResource("1_wj6nw")
+
+[node name="Component" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("1_4t2vu")
+
+[node name="CPU" parent="." instance=ExtResource("3_tscls")]
+position = Vector2(17, -87)
+texture = ExtResource("2_lh0hs")
+
+[node name="Inputs" parent="." instance=ExtResource("3_tscls")]
+position = Vector2(-222, -94)
+texture = ExtResource("5_hiwah")
+
+[node name="ForcaDaCPU" parent="." instance=ExtResource("3_tscls")]
+position = Vector2(-121, -286)
+texture = ExtResource("7_gscrk")
+
+[node name="ControladorEntradaESaida" parent="." instance=ExtResource("3_tscls")]
+position = Vector2(-180, 206)
+texture = ExtResource("8_jj8g4")
+
+[node name="CPUFan" parent="." instance=ExtResource("3_tscls")]
+position = Vector2(117, -295)
+texture = ExtResource("9_dp8mt")
+
+[node name="EntradaDeForca" parent="." instance=ExtResource("3_tscls")]
+position = Vector2(234, -181)
+texture = ExtResource("10_bibgm")
+
+[node name="EntradaPlacaDeVideo" parent="." instance=ExtResource("3_tscls")]
+position = Vector2(0, 195)
+texture = ExtResource("11_56g5n")
+
+[node name="ChipSet" parent="." instance=ExtResource("3_tscls")]
+position = Vector2(117, 221)
+texture = ExtResource("6_pw7vm")
+
+[node name="Bateria" parent="." instance=ExtResource("3_tscls")]
+position = Vector2(-27, 191)
+texture = ExtResource("12_x6cxo")
+
+[node name="EntradaSATA" parent="." instance=ExtResource("3_tscls")]
+position = Vector2(226, -45)
+texture = ExtResource("13_gx5q7")
+
+[node name="M2M" parent="." instance=ExtResource("3_tscls")]
+position = Vector2(106, 87)
+texture = ExtResource("14_3hwiy")
+
+[node name="RAM" parent="." instance=ExtResource("3_tscls")]
+position = Vector2(163, -94)
+texture = ExtResource("15_xivqt")
+
+[node name="SysFan" parent="." instance=ExtResource("3_tscls")]
+position = Vector2(-163, -263)
+texture = ExtResource("16_alhem")

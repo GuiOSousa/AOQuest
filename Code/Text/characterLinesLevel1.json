@@ -1,0 +1,280 @@
+[
+	{
+		"code": "01_intro",
+		"content": [
+			{
+				"text": "Olá!",
+				"frame": 3
+			},
+			{
+				"text": "Você pode me ajudar?",
+				"frame": 0
+			},
+			{
+				"text": "Isto é uma [color=#f0ff00]Placa Mãe[/color], mas está com defeito.",
+				"frame": 0
+			},
+			{
+				"text": "Ela é essencial para o funcionamento do computador!",
+				"frame": 3
+			},
+			{
+				"text": "Precisamos consertá-la.",
+				"frame": 0
+			},
+			{
+				"text": "Preciso que você encontre alguns [color=#f0ff00]componentes[/color] para mim.",
+				"frame": 0
+			},
+			{
+				"text": "Vou colocar a descrição do componente que eu preciso ali em cima, ok?",
+				"frame": 0
+			},
+			{
+				"text": "Segundo o manual, o primeiro é...",
+				"frame": 1
+			}
+		]
+	},
+	{
+		"code": "01_CPU_done",
+		"content": [
+			{
+				"text": "Essa mesmo!",
+				"frame": 3
+			},
+			{
+				"text": "Este componente é responsável por diversas outras tarefas, como realizar [color=#f0ff00]cálculos super rápidos[/color], [color=#f0ff00]controlar dados[/color] e dar [color=#f0ff00]instruções[/color].",
+				"frame": 0
+			},
+			{
+				"text": "Bom trabalho, vamos checar os outros componentes agora.",
+				"frame": 0
+			},
+			{
+				"text": "O próximo é...",
+				"frame": 1
+			}
+		]
+	},
+	{
+		"code": "01_Inputs_done",
+		"content": [
+			{
+				"text": "Boa!",
+				"frame": 3
+			},
+			{
+				"text": "É aqui onde inserimos dispositivos [color=#f0ff00]periféricos[/color] em nossos computadores, como: mouse, teclado e monitor.",
+				"frame": 0
+			},
+			{
+				"text": "É uma verdadeira porta de entrada!",
+				"frame": 3
+			},
+			{
+				"text": "Agora preciso que você encontre esse aqui...",
+				"frame": 1
+			}
+		]
+	},
+	{
+		"code": "01_ForcaDaCPU_done",
+		"content": [
+			{
+				"text": "Esse mesmo!",
+				"frame": 3
+			},
+			{
+				"text": "É daqui que vem a [color=#f0ff00]energia[/color] que mantém a CPU funcionando.",
+				"frame": 0
+			},
+			{
+				"text": "E o próximo é...",
+				"frame": 1
+			}
+		]
+	},
+	{
+		"code": "01_ControladorEntradaESaida_done",
+		"content": [
+			{
+				"text": "Exato!",
+				"frame": 3
+			},
+			{
+				"text": " É bem parecido com os barramentos, permitindo a [color=#f0ff00]entrada e saída dos dados[/color]",
+				"frame": 0
+			},
+			{
+				"text": "Legal, vamos em frente...",
+				"frame": 1
+			}
+		]
+	},
+	{
+		"code": "01_CPUFan_done",
+		"content": [
+			{
+				"text": "Aqui mesmo!",
+				"frame": 3
+			},
+			{
+				"text": "Este dispositivo é responsável por [color=#f0ff00]resfriar[/color] a CPU, evitando um superaquecimento.",
+				"frame": 0
+			},
+			{
+				"text": "Em frente...",
+				"frame": 1
+			}
+		]
+	},
+	{
+		"code": "01_EntradaDeForca_done",
+		"content": [
+			{
+				"text": "Boa!",
+				"frame": 3
+			},
+			{
+				"text": "É este componente que fornece [color=#f0ff00]energia[/color] para toda a [color=#f0ff00]Placa Mãe[/color].",
+				"frame": 0
+			},
+			{
+				"text": "Bem, vamos pro próximo...",
+				"frame": 1
+			}
+		]
+	},
+	{
+		"code": "01_EntradaPlacaDeVideo_done",
+		"content": [
+			{
+				"text": "Boa!",
+				"frame": 3
+			},
+			{
+				"text": "É aqui que inserimos as famosas [color=#f0ff00]Placas de Vídeo[/color], muito conhecidas no mundo dos games.",
+				"frame": 0
+			},
+			{
+				"text": "Vamos continuar...",
+				"frame": 1
+			}
+		]
+	},
+	{
+		"code": "01_ChipSet_done",
+		"content": [
+			{
+				"text": "Boa!",
+				"frame": 3
+			},
+			{
+				"text": "O chip-set serve como um [color=#f0ff00]'acoplador'[/color] de componentes, assim como a CPU",
+				"frame": 0
+			},
+			{
+				"text": "Estamos quase acabando...",
+				"frame": 1
+			}
+		]
+	},
+	{
+		"code": "01_Bateria_done",
+		"content": [
+			{
+				"text": "Você é bom nisso!",
+				"frame": 3
+			},
+			{
+				"text": "Este é um dispositivo responsável por manter a [color=#f0ff00]BIOS[/color] em funcionamento, mesmo que seu computador esteja fora da tomada.",
+				"frame": 0
+			},
+			{
+				"text": "E o próximo é...",
+				"frame": 1
+			}
+		]
+	},
+	{
+		"code": "01_EntradaSATA_done",
+		"content": [
+			{
+				"text": "Parabéns!",
+				"frame": 3
+			},
+			{
+				"text": "Estas entradas possibilitam a [color=#f0ff00]passagem de dados[/color] entre os dispositivos de memória física.",
+				"frame": 0
+			},
+			{
+				"text": "Seguindo...",
+				"frame": 1
+			}
+		]
+	},
+	{
+		"code": "01_M2M_done",
+		"content": [
+			{
+				"text": "Isso mesmo!",
+				"frame": 3
+			},
+			{
+				"text": "É um tipo de conexão que permite a [color=#f0ff00]interação em rede[/color] entre mais de um dispositivo.",
+				"frame": 0
+			},
+			{
+				"text": "Então, agora...",
+				"frame": 1
+			}
+		]
+	},
+	{
+		"code": "01_RAM_done",
+		"content": [
+			{
+				"text": "Exatamente!",
+				"frame": 3
+			},
+			{
+				"text": "A memória ram é utilizada como um [color=#f0ff00]espaço temporário[/color] para informações relevantes para o seu computador.",
+				"frame": 0
+			},
+			{
+				"text": "E, por último...",
+				"frame": 1
+			}
+		]
+	},
+	{
+		"code": "01_SysFan_done",
+		"content": [
+			{
+				"text": "Você conseguiu!",
+				"frame": 3
+			},
+			{
+				"text": "Este componente é responsável pelo [color=#f0ff00]resfriamento[/color] geral do sistema.",
+				"frame": 0
+			},
+			{
+				"text": "Você consegui localizar [color=#00ce00]TODOS[/color] os componentes da [color=#f0ff00]Placa Mãe![/color]",
+				"frame": 3
+			},
+			{
+				"text": "Parabéns!",
+				"frame": 3
+			},
+			{
+				"text": "Será que você poderia me ajudar com outro problema?",
+				"frame": 2
+			},
+			{
+				"text": "Me acompanhe.",
+				"frame": 0
+			}
+		]
+	}
+]

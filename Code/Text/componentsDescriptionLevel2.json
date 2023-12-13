@@ -1,0 +1,77 @@
+[
+	{
+		"code": "teste",
+		"content": [
+			{
+				"text": "Está será a descrição de um componente",
+			},
+			{
+				"text": "Testando",
+			}
+		]
+	},
+	{
+		"code": "Entrada",
+		"content": [
+			{
+				"text": "Dados que chegam à CPU para serem processados.",
+			}
+		]
+	},
+	{
+		"code": "Processador",
+		"content": [
+			{
+				"text": "Uma espécie de microchip especializado, e sua principal função é acelerar, endereçar, resolver ou preparar os dados",
+			}
+		]
+	},
+	{
+		"code": "LogicaCombinacional",
+		"content": [
+			{
+				"text": "Um tipo de lógica digital implementada via circuitos booleanos em que a saída é uma função pura exclusivamente da entrada atual",
+			}
+		]
+	},
+	{
+		"code": "MemoriaPrincipal",
+		"content": [
+			{
+				"text": "Tem a finalidade de armazenar as instruções e dados de programas que serão ou estão sendo executados pela CPU.",
+			}
+		]
+	},
+	{
+		"code": "Registradores",
+		"content": [
+			{
+				"text": "Uma espécie de microchip especializado, e sua principal função é acelerar, endereçar, resolver ou preparar os dados.",
+			}
+		]
+	},
+	{
+		"code": "Saida",
+		"content": [
+			{
+				"text": "Saída é a resposta ou resultado final de um processamento de dados ou de uma série de operações realizadas por um computador.",
+			}
+		]
+	},
+	{
+		"code": "UnidadeDeControle",
+		"content": [
+			{
+				"text": "Controla o fluxo de dados dentro da CPU, buscando, decodificando e executando instruções armazenadas na memória.",
+			}
+		]
+	},
+	{
+		"code": "Registradores",
+		"content": [
+			{
+				"text": "São elementos de armazenamento de dados extremamente rápidos.",
+			}
+		]
+	}
+]

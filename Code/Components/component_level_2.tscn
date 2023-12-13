@@ -1,0 +1,54 @@
+[gd_scene load_steps=12 format=3 uid="uid://bwyk0d448f2e8"]
+
+[ext_resource type="Texture2D" uid="uid://cs1b5g2vaibu3" path="res://Images/Fase2/CPU.jpg" id="1_i4qtr"]
+[ext_resource type="Script" path="res://Code/Components/component_level_2.gd" id="1_nnru7"]
+[ext_resource type="Texture2D" uid="uid://bc58rpevp3ogq" path="res://Images/Fase2/Contorno.png" id="2_ed5te"]
+[ext_resource type="PackedScene" uid="uid://b6nnn78a4ws4o" path="res://Code/Reusable/component.tscn" id="3_dcq68"]
+[ext_resource type="Texture2D" uid="uid://csww5g1hbmd2p" path="res://Images/Fase2/Entrada.png" id="4_ygk1a"]
+[ext_resource type="Texture2D" uid="uid://kxd34wptyewr" path="res://Images/Fase2/LogicaCombinacional.png" id="5_4ntab"]
+[ext_resource type="Texture2D" uid="uid://diiu8dfa6jitj" path="res://Images/Fase2/MemoriaPrincipal.png" id="6_spcx5"]
+[ext_resource type="Texture2D" uid="uid://c5fd5ud14apoo" path="res://Images/Fase2/Processador.png" id="7_1ic2m"]
+[ext_resource type="Texture2D" uid="uid://dqo0g6mfvf764" path="res://Images/Fase2/Registradores.png" id="8_gxn3s"]
+[ext_resource type="Texture2D" uid="uid://bdek1thxxbj0y" path="res://Images/Fase2/Saida.png" id="9_qyy6w"]
+[ext_resource type="Texture2D" uid="uid://snxo1p2kkmm1" path="res://Images/Fase2/UnidadeDeControle.png" id="10_e2w8o"]
+
+[node name="Component-Level2" type="Node2D"]
+script = ExtResource("1_nnru7")
+
+[node name="PH" type="Sprite2D" parent="."]
+visible = false
+modulate = Color(1, 1, 1, 0.47451)
+position = Vector2(26, 2)
+texture = ExtResource("1_i4qtr")
+
+[node name="Component" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("2_ed5te")
+
+[node name="Processador" parent="." instance=ExtResource("3_dcq68")]
+position = Vector2(17, 9)
+texture = ExtResource("7_1ic2m")
+
+[node name="Entrada" parent="." instance=ExtResource("3_dcq68")]
+position = Vector2(-167, 52)
+texture = ExtResource("4_ygk1a")
+
+[node name="LogicaCombinacional" parent="." instance=ExtResource("3_dcq68")]
+position = Vector2(17, 46)
+texture = ExtResource("5_4ntab")
+
+[node name="MemoriaPrincipal" parent="." instance=ExtResource("3_dcq68")]
+position = Vector2(16, 143)
+texture = ExtResource("6_spcx5")
+
+[node name="Registradores" parent="." instance=ExtResource("3_dcq68")]
+position = Vector2(18, -17)
+texture = ExtResource("8_gxn3s")
+
+[node name="Saida" parent="." instance=ExtResource("3_dcq68")]
+position = Vector2(213, 51)
+texture = ExtResource("9_qyy6w")
+
+[node name="UnidadeDeControle" parent="." instance=ExtResource("3_dcq68")]
+position = Vector2(16, -108)
+texture = ExtResource("10_e2w8o")

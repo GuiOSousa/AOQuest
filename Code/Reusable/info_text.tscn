@@ -1,0 +1,27 @@
+[gd_scene load_steps=4 format=3 uid="uid://ccv5q8mhd8xsc"]
+
+[ext_resource type="FontFile" uid="uid://g1yn8ufrye7b" path="res://Fonts/depixel/DePixelHalbfett.ttf" id="1_2pfpn"]
+[ext_resource type="Script" path="res://Code/Reusable/info_text.gd" id="2_2p11x"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vmxpb"]
+bg_color = Color(0.188235, 0.188235, 0.188235, 0.811765)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color(0.188235, 0.188235, 0.188235, 0.811765)
+
+[node name="InfoText" type="RichTextLabel"]
+texture_filter = 1
+offset_right = 416.0
+offset_bottom = 104.0
+theme_override_colors/default_color = Color(1, 1, 1, 1)
+theme_override_fonts/normal_font = ExtResource("1_2pfpn")
+theme_override_font_sizes/normal_font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxFlat_vmxpb")
+bbcode_enabled = true
+text = "Place Holder"
+fit_content = true
+autowrap_mode = 2
+shortcut_keys_enabled = false
+script = ExtResource("2_2p11x")
